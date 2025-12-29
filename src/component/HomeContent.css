@@ -1,0 +1,39 @@
+.home-content{
+   overflow: hidden;
+   position: relative;
+   background: linear-gradient(to bottom, black, #636262);
+   
+}
+.home-content img{
+    width: 100vw;
+    height: 89.5vh;
+    overflow: hidden;
+    /* filter: blur(4px); */
+    opacity: 0.6;
+    margin-top: 10vh;
+}
+ .home-content-text{
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+    /* filter: blur(2px);  */
+    top: 35vh;
+    left: 0;
+    /* background-color: aliceblue; */
+    backdrop-filter: blur(10px);  
+    background-color: black;
+    opacity: 0.4;
+    color: aliceblue;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .home-content-text button{
+     padding: 10px 25px;
+     font-size: 20px;
+     margin-top: 20px;
+     color: #1c1b1b;
+     border-radius: 5px;
+ }

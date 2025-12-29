@@ -1,0 +1,86 @@
+.placedetails{
+    height: 100vh;
+    /* background-color: black; */
+    width: 100vw;
+    overflow: hidden;
+    display: flex;
+}
+.placedetails-left{
+    height: 100vh;
+    width: 50vw;
+    /* padding-top: 10vh; */
+     position: relative;
+}
+.placedetails-right{
+   height: 100vh;
+    width: 50vw;
+    color: #636262;
+    /* background-color: white; */
+    padding-top: 10vh;
+    /* position: relative; */
+}
+.place-images{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 3000;
+    height: 30vh;
+    width: 50vw;
+    background-color: rgba(0, 0, 0, 0.503);
+    overflow-x: auto;
+    display: flex;
+}
+.place-images img{
+    height: 28vh;
+    margin: 1%;
+}
+.placedetails-right-top{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.placedetails-right-search{
+    position: relative;
+}
+.placedetails-right-search input{
+    height:40px;
+    width: 300px;
+    padding-left: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.placedetails-right-search div{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    font-size: 18px;
+}
+.placedetails-right-select{
+     
+}
+.placedetails-right-select select{
+   height:40px;
+    width: 300px;
+    padding: 0px 20px;
+    border-radius: 10px;
+    border: none;
+  appearance: none;           /* Remove default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='14' height='14' viewBox='0 0 20 20' fill='black' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7L10 12L15 7'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center; 
+}
+
+.placedetails-right-body{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 equal-width columns */
+    gap: 20px; /* space between cards */
+    margin-top: 5vh;
+    overflow-y: auto;
+    padding: 0px 20px;
+      height: 65vh;    
+}

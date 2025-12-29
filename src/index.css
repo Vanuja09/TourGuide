@@ -1,0 +1,13 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+*{
+   margin: 0;
+ padding: 0;
+ 
+}
+body{
+  background-color: #c5cfcf;
+}
+
