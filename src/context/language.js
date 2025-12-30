@@ -15,7 +15,7 @@ import img4_3 from "../assets/images/places/nallur-3.jpg"
 import img4_4 from "../assets/images/places/nallur-4.jpg"
 
 import img5 from "../assets/images/places/ppd-jetty.jpg"
-// import img5_1 from "../assets/images/places/ppd-jetty-1.jpg"
+import img5_1 from "../assets/images/places/ppd-jetty-1.JPG"
 import img5_2 from "../assets/images/places/ppd-jetty-2.jpg"
 import img5_3 from "../assets/images/places/ppd-jetty-3.jpg"
 
@@ -33,15 +33,15 @@ export const places = {
     { Name: "Jaffna Fort", img: img2, lat: 9.6623, long: 80.0097, images: [img2, img2_1, img2_2, img2_3, img2_4] },
     { Name: "Point Pedro Light House", img: img3, lat: 9.826404, long: 80.25019, images: [img3] },
     { Name: "Nallur Temple", img: img4, lat: 9.67420021093108, long: 80.02925087998973, images: [img4, img4_1, img4_2, img4_3, img4_4] },
-    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "Nainathivu Temple", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS Beach", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "Casuarina Beach", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "Nainathivu Temple", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS Beach", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "Casuarina Beach", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+    { Name: "Point Pedro Jetty", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "Nainathivu Temple", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS Beach", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "Casuarina Beach", img: img8, lat: 9.6623, long: 80.0097, images: [img8] }
@@ -51,15 +51,15 @@ export const places = {
     { Name: "யாழ்ப்பாண கோட்டை", img: img2, lat: 9.6623, long: 80.0097, images: [img2, img2_1, img2_2, img2_3, img2_4] },
     { Name: "பருத்தித்துறை விளக்கத்தூண்", img: img3, lat: 9.826404, long: 80.25019, images: [img3] },
     { Name: "நல்லூர் கோவில்", img: img4, lat: 9.67420021093108, long: 80.02925087998973, images: [img4, img4_1, img4_2, img4_3, img4_4] },
-    { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+    { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "நைனாதீவு கோவில்", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS கடற்கரை", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "கசுவரினா கடற்கரை", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-      { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+      { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "நைனாதீவு கோவில்", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS கடற்கரை", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "கசுவரினா கடற்கரை", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-      { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+      { Name: "பருத்தித்துறை துறைமுகம்", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "நைனாதீவு கோவில்", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "KKS கடற்கரை", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "கசுவரினா கடற்கரை", img: img8, lat: 9.6623, long: 80.0097, images: [img8] }
@@ -69,15 +69,15 @@ export const places = {
     { Name: "යාපනේ බලකොටුව", img: img2, lat: 9.6623, long: 80.0097, images: [img2, img2_1, img2_2, img2_3, img2_4] },
     { Name: "පොයින්ට් පේඩ්‍රෝ ප්‍රදීපාගාරය", img: img3, lat: 9.826404, long: 80.25019, images: [img3] },
     { Name: "නල්ලූර් දේවාලය", img: img4, lat: 9.67420021093108, long: 80.02925087998973, images: [img4, img4_1, img4_2, img4_3, img4_4] },
-    { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+    { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "නයිනතීවු දේවාලය", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "කේ.කේ.එස් වෙරළ තීරය", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "කැසුවන්රිනා වෙරළ තීරය", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-        { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+        { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "නයිනතීවු දේවාලය", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "කේ.කේ.එස් වෙරළ තීරය", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "කැසුවන්රිනා වෙරළ තීරය", img: img8, lat: 9.6623, long: 80.0097, images: [img8] },
-        { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5,  img5_2, img5_3] },
+        { Name: "පොයින්ට් පේඩ්‍රෝ ජෙට්ටි", img: img5, lat: 9.828332923829912, long: 80.23548555563852, images: [img5, img5_1, img5_2, img5_3] },
     { Name: "නයිනතීවු දේවාලය", img: img6, lat: 9.6623, long: 80.0097, images: [img6] },
     { Name: "කේ.කේ.එස් වෙරළ තීරය", img: img7, lat: 9.6623, long: 80.0097, images: [img7] },
     { Name: "කැසුවන්රිනා වෙරළ තීරය", img: img8, lat: 9.6623, long: 80.0097, images: [img8] }
