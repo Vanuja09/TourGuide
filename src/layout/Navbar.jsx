@@ -39,7 +39,7 @@ const Navbar = () => {
                 <a className={selectlink === '/about'?"aselect":"anonselect"} onClick={()=>handleLinkClick('/about')} >About</a>
             </div>
             <div className='navbar-language'>
-                {/* <button className='navbar-login'>Login</button>
+                {/* <button className='navbar-login'>Login</button>   
                 <button className='navbar-signup'>Signup</button> */}
                 <div className={selectl === 'tamil'?"select":"non-select"} onClick={()=>handleClickLanguage("tamil")}>தமிழ்</div>
                 <div className={selectl === 'engilsh'?"select":"non-select"} onClick={()=>handleClickLanguage("engilsh")}>English</div>
